@@ -1,4 +1,6 @@
 import React from "react";
+import{username,city,image} from "../data/user"
+
 
 function NavBar() {
   return (
@@ -7,3 +9,5 @@ function NavBar() {
     </nav>
   );
 }
+
+export default NavBar;
